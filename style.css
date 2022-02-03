@@ -72,6 +72,9 @@ img {
   clear: both;
 }
 
+/* mobile version */
+
+
 @media screen and (max-width:420px){
 	body{
 		margin:0;
@@ -89,6 +92,7 @@ img {
 	
 	.row{
 		width: 90%;
+		min-width:365px;
 		margin-top:0;
 	}
 	.container.grey {
@@ -123,10 +127,5 @@ img {
 		background-color: rgb(242, 242, 205);
 		padding:.8rem 0;
 	}
-
-
-
-
-
 
 }
